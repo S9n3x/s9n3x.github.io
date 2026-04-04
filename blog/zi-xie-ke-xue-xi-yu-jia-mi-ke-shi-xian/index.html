@@ -46,7 +46,7 @@ content="default-src 'self';font-src 'self' data:;img-src 'self' https://* data:
         <noscript><link rel="stylesheet" href="https://synex.space/no_js.css"/></noscript>
         <script type="text/javascript" src="https://synex.space/js/initializeTheme.min.js"></script>
         <script defer src="https://synex.space/js/themeSwitcher.min.js"></script>
-        <script defer src="https://synex.space/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script>
+        <script defer src="https://synex.space/js/searchElasticlunr.min.js?h=69d4be9bc2f0a8301299"></script>
 
         
     
@@ -141,7 +141,7 @@ content="default-src 'self';font-src 'self' data:;img-src 'self' https://* data:
 </span>
 <li><time class="dt-published" datetime="2026-02-21T16:36:00">21st Feb 2026</time></li><li title="2189 words"><span class='separator' aria-hidden='true'>•</span>11 min read</li><li class="tag"><span class='separator' aria-hidden='true'>•</span>Tags:&nbsp;</li><li class="tag"><a class="p-category" href="https://synex.space/tags/reverse/">Reverse</a>,&nbsp;</li><li class="tag"><a class="p-category" href="https://synex.space/tags/c/">C++</a>,&nbsp;</li><li class="tag"><a class="p-category" href="https://synex.space/tags/lief/">LIEF</a>,&nbsp;</li><li class="tag"><a class="p-category" href="https://synex.space/tags/asm/">asm</a>,&nbsp;</li><li class="tag"><a class="p-category" href="https://synex.space/tags/ke/">壳</a></li>
         </ul><section class="e-content body"><h2 id="guan-yu-cheng-xu-ke">关于程序壳</h2>
-<p>一般分两种，加密壳和压缩壳，具体一般都是对text段进行操作，压缩或者加密，之后通过增加额外段，把程序入口设置到额外段，额外段的内容位text解密或解压一类。本文以64位程序为例，做一个简单的加壳程序。有<code>C++</code>编码经验的也可以直接参考项目，本文代码均已上传，项目地址如下</p>
+<p>一般分两种，加密壳和压缩壳，具体一般都是对text段进行操作，压缩或者加密，之后通过增加额外段，把程序入口设置到额外段，额外段的内容为text解密或解压一类。本文以64位程序为例，做一个简单的加壳程序。有<code>C++</code>编码经验的也可以直接参考项目，本文代码均已上传，项目地址如下</p>
 <pre data-lang="url" class="language-url z-code"><code class="language-url" data-lang="url"><span class="z-text z-plain">https://github.com/Synex93/CppPacker.git
 </span></code></pre>
 <h2 id="shou-dong-shi-xian-liu-cheng">手动实现流程</h2>
